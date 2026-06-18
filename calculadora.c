@@ -14,6 +14,7 @@ int main() {
     printf("2. Resta\n");
     printf("3. Multiplicacion\n");
     printf("4. Division\n");
+    printf("5. Salir\n");
     printf("Seleccione una opcion: ");
     scanf("%d", &opcion);
 
@@ -44,6 +45,10 @@ int main() {
             scanf("%f", &n2);
 
             printf("La division es: %.2f\n", division(n1, n2));
+            break;
+
+        case 5:
+            printf("Saliendo del programa...\n");
             break;
 
         default:
